@@ -253,22 +253,31 @@ h2{
 animation:7s linear infinite rotation1;
     rotate: 230deg;
     position: absolute;
-    top: 2rem;
+    top: 1rem;
     left: 70%;
 }
 #about02{
 animation:7s linear infinite rotation1;
     rotate: 10deg;
     position: absolute;
-    top: -2rem;
-    left: 3%;
+    top: -3rem;
+    left: 2%;
 }
 #about03{
 animation:7s linear infinite rotation1;
     rotate: 80deg;
     position: absolute;
-    top: 18rem;
-    left: 10%;
+    top: 20rem;
+    left: 8%;
+}
+#about04{
+    position: absolute;
+    top: 5.7rem;
+    left: 16%;
+    width: 70%;
+}
+#about04 img{
+width: 100%;
 }
 @keyframes rotation1{
     0%{ transform:rotate(0);}
@@ -286,6 +295,11 @@ width: 150px;
     left: 23%;
     font-size: 0.9rem;
     line-height: 1.3rem;
+    background-color: #2F3D34;
+    border: #21212f 2px solid;
+    color: #F0E6D7;
+    padding: 1rem;
+    opacity: 0.7;
 }
 
 
@@ -297,10 +311,12 @@ width: 150px;
     width: 485px;
     margin-top: 100%;
    background-image: url(../images/angel-4047743_1280\ 2.png);
+   background-position: center;
    background-repeat: no-repeat;
 }
+
 .underStrano{
-   margin-top: 50px;
+margin-top: 80px;
 }
 
 /* slideセクション */
@@ -322,7 +338,7 @@ width: 150px;
 }
 .container02{
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 0px;
     width: 50%;
    
     .swiper-slide{
@@ -340,9 +356,18 @@ width: 150px;
     outline: 10px solid black; 
     outline-offset: -30px; 
   }
-
+.limitedSection h2{
+    font-size: 1.4rem;
+    font-size: bold;
+}
 
   /* sweetのセクション */
+
+  .box02{
+    margin: 0rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 .sweetItem{
 position: relative;
 }
@@ -383,7 +408,7 @@ position: relative;
     left: 10%;
 }
 .coffeeWave{
-    margin-top: -52px;
+    margin-top: -3px;
    margin-left: 8px;
 }
 
@@ -453,3 +478,55 @@ position: relative;
     font-size: 18px;
     color: #21212F;
 } */
+
+
+
+.googlemap{
+    position: relative;
+}
+
+.mapItem01{
+    position: absolute;
+    top: 30px;
+    left: 47%;
+    z-index: 100;
+}
+.mapItem01 img{
+width: 220px;
+}
+
+
+.mapItem02{
+    position: absolute;
+    top: 50px;
+    left: 50%; 
+   
+}
+.mapItem03{
+    position: absolute;
+    top: 220px;
+    left: 77%;
+    width: 20%;
+}
+.mapItem04{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+.mapItem05{
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    text-align: center;
+}
+.mapItem06{
+    position: absolute;
+    top: 350px;
+    left: 60%;
+    text-align: center;
+}
+
+.footerBox img{
+    margin-top: 150px;
+    width: 250px;
+}
