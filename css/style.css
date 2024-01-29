@@ -367,56 +367,57 @@ h2 {
 .contain {
     margin-inline: auto;
     position: relative;
+}
     .container01 {
         text-align: center;
         margin-top: 100px;
         background-color: #F0E6D7;
         width: 40%;
-
-        .swiper-slide {
-            padding: 1rem;
-            border: 1.5px solid black;
-            border-radius: 10px;
-
-            img {
-                height: auto;
-                width: 70%;
-                border-radius: 10px;
-                border: 1px solid black;
-                box-shadow: 3px 3px 1px black;
-            }
-
-            p {
-                font-size: 0.8rem;
-            }
-
-            h4 {
-                margin: 1rem 0;
-            }
-        }
-    }
 }
+.container01 .swiper-slide {
+    padding: 1rem;
+    border: 1.5px solid black;
+    border-radius: 10px;
+}
+.container01 img {
+    height: auto;
+    width: 70%;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 1px black;
+}
+
+.container01 p {
+    font-size: 0.8rem;
+}
+
+.container01 h4 {
+    margin: 1rem 0;
+}
+
 .swiper-button-prev {
-    left: 50px;
+    left: 20px;
     background: black;
     border-radius: 50px;
     width: 30px;
     height: 30px;
-  }
-  .swiper-button-prev::after {
+}
+
+.swiper-button-prev::after {
     content: "◀︎";
     font-size: 18px;
-    color:  #5a5a60;
-} 
- 
-  .swiper-button-next {
-    right: 50px;
+    color: #5a5a60;
+}
+
+.swiper-button-next {
+    right: 20px;
     background: black;
     border-radius: 50px;
     width: 30px;
     height: 30px;
-  }
-  .swiper-button-next::after {
+}
+
+.swiper-button-next::after {
     content: "▶︎";
     font-size: 18px;
     color: #5a5a60;
@@ -467,23 +468,23 @@ h2 {
     margin-top: 0px;
     width: 40%;
     text-align: center;
+}
+.container02 .swiper-slide {
 
-    .swiper-slide {
+    margin: 0 auto;
+    padding: 1rem;
+}
+.container02 img {
+    height: auto;
+    width: 100%;
+}
 
-        margin: 0 auto;
-        padding: 1rem;
+.container02  h4 {
+    font-size: 1.3rem;
+}
 
-        img {
-            height: auto;
-            width: 100%;
-        }
-        h4{
-            font-size: 1.3rem;
-        }
-        p{
-            font-size: 0.8rem;
-        }
-    }
+.container02  p {
+    font-size: 0.8rem;
 }
 
 
@@ -507,7 +508,7 @@ h2 {
 }
 
 
-.coffeeWave{
+.coffeeWave {
     position: relative;
     margin-left: 8px;
 }
@@ -537,7 +538,7 @@ h2 {
     position: absolute;
     top: 420px;
     left: 60%;
-    
+
 }
 
 .sweet04 {
@@ -620,7 +621,7 @@ h2 {
     width: 200px;
 }
 
-.footerBox02{
+.footerBox02 {
     text-align: center;
     background-color: black;
     padding: 2rem;
@@ -629,10 +630,8 @@ h2 {
     margin: 0 auto;
 }
 
-#wrapper{
+#wrapper {
     height: 8vh;
     width: 485px;
     margin: 0 auto;
 }
-
-
